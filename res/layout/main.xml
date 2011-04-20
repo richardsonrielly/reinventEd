@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_height="wrap_content" 
+    android:text="Fixing Education Main Screen"
+    android:textSize="30sp" android:layout_gravity="center" android:layout_width="wrap_content"/>
+<LinearLayout android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:layout_gravity="center" android:layout_width="wrap_content">
+    <LinearLayout android:id="@+id/linearLayout2" android:layout_width="wrap_content" android:layout_height="fill_parent" android:orientation="vertical">
+        <ImageButton android:src="@drawable/library_button" android:id="@+id/imageButton1" android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="wrap_content"></ImageButton>
+        <ImageButton android:layout_width="wrap_content" android:src="@drawable/schedule_button" android:layout_height="wrap_content" android:id="@+id/imageButton3" ></ImageButton>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout3" android:layout_width="wrap_content" android:layout_height="fill_parent" android:orientation="vertical">
+        <ImageButton android:layout_width="wrap_content" android:src="@drawable/todo_button" android:layout_height="wrap_content" android:id="@+id/imageButton2"  android:layout_gravity="center"></ImageButton>
+        <ImageButton android:layout_width="wrap_content" android:src="@drawable/grades_button" android:layout_height="wrap_content" android:id="@+id/imageButton4"></ImageButton>
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>
