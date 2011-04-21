@@ -4,18 +4,12 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     >
-<TextView  
-    android:layout_height="wrap_content" 
-    android:text="Fixing Education Main Screen"
-    android:textSize="30sp" android:layout_gravity="center" android:layout_width="wrap_content"/>
-<LinearLayout android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:layout_gravity="center" android:layout_width="wrap_content">
-    <LinearLayout android:id="@+id/linearLayout2" android:layout_width="wrap_content" android:layout_height="fill_parent" android:orientation="vertical">
-        <ImageButton android:src="@drawable/library_button" android:id="@+id/imageButton1" android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="wrap_content"></ImageButton>
-        <ImageButton android:layout_width="wrap_content" android:src="@drawable/schedule_button" android:layout_height="wrap_content" android:id="@+id/imageButton3" ></ImageButton>
-    </LinearLayout>
-    <LinearLayout android:id="@+id/linearLayout3" android:layout_width="wrap_content" android:layout_height="fill_parent" android:orientation="vertical">
-        <ImageButton android:layout_width="wrap_content" android:src="@drawable/todo_button" android:layout_height="wrap_content" android:id="@+id/imageButton2"  android:layout_gravity="center"></ImageButton>
-        <ImageButton android:layout_width="wrap_content" android:src="@drawable/grades_button" android:layout_height="wrap_content" android:id="@+id/imageButton4"></ImageButton>
-    </LinearLayout>
-</LinearLayout>
+<FrameLayout android:id="@+id/frameLayout1" android:layout_height="wrap_content" android:layout_width="fill_parent">
+    <ImageView android:src="@drawable/icon" android:id="@+id/imageView1" android:layout_height="wrap_content" android:layout_width="fill_parent"></ImageView>
+</FrameLayout>
+<Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/button1" android:text="Agenda"></Button>
+<Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/button2" android:text="Calendar"></Button>
+<Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/button3" android:text="Courses"></Button>
+<Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/button4" android:text="Grades"></Button>
+<Button android:layout_height="wrap_content" android:id="@+id/button5" android:text="Option" android:layout_width="wrap_content" android:layout_gravity="right"></Button>
 </LinearLayout>

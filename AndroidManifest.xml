@@ -6,17 +6,17 @@
     <uses-sdk android:minSdkVersion="7" />
 
     <application android:icon="@drawable/icon" android:label="@string/app_name">
-        <activity android:label="@string/app_name" android:name=".fixingEducation">
+        <activity android:label="@string/app_name" android:name="FixingEducation">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity 
-        	android:label="libraryView" android:name=".LibraryView"></activity>
-        <activity android:name=".GradesView" android:label="gradesView"></activity>
-        <activity android:name=".ScheduleView" android:label="scheduleView"></activity>
-        <activity android:label="toDoView" android:name=".ToDoView"></activity>
+        <activity android:name=".agenda.AgendaView" android:label="AgendaView"></activity>
+        <activity android:label="CalendarView" android:name=".calendar.CalendarView"></activity>
+        <activity android:label="CoursesView" android:name=".courses.CoursesView"></activity>
+        <activity android:label="GradesView" android:name=".grades.GradesView"></activity>
+        <activity android:label="OptionsView" android:name=".options.OptionsView"></activity>
 
     </application>
 </manifest>

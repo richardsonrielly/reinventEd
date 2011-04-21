@@ -1,13 +1,14 @@
-package edu.fix;
+package edu.fix.calendar;
 
+import edu.fix.R;
 import android.app.Activity;
 import android.os.Bundle;
 
-public class GradesView extends Activity {
+public class CalendarView extends Activity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.grades);
+		setContentView(R.layout.calendar);
 	}
 
 }
