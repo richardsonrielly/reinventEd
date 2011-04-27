@@ -1,8 +1,53 @@
 
-    <LinearLayout android:id="@+id/linearLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
-        <TextView android:text="Agenda View" 
-        	android:id="@+id/textView1" 
-        	android:layout_width="wrap_content" 
-        	android:layout_height="wrap_content"
-        	android:textSize="30sp"></TextView>
-    </LinearLayout>
+<TableLayout android:id="@+id/tableLayout2" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent">
+            <TableRow android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/HeaderRow">
+                <FrameLayout android:layout_height="wrap_content" android:id="@+id/frameLayout9" android:layout_width="600dip">
+                    <LinearLayout android:id="@+id/linearLayout1" android:layout_width="fill_parent" android:layout_gravity="center" android:layout_height="wrap_content">
+                        <LinearLayout android:layout_width="wrap_content" android:layout_weight="1" android:id="@+id/linearLayout2" android:layout_height="wrap_content">
+                            <FrameLayout android:layout_width="wrap_content" android:layout_weight="1" android:id="@+id/frameLayout1" android:layout_gravity="right" android:layout_height="wrap_content">
+                                <Button android:id="@+id/button1" android:layout_height="wrap_content" android:text="Left" android:layout_width="100dip"></Button>
+                            </FrameLayout>
+                        </LinearLayout>
+                        <LinearLayout android:layout_width="wrap_content" android:layout_weight="1" android:orientation="vertical" android:id="@+id/linearLayout3" android:layout_height="wrap_content" android:layout_gravity="center_horizontal">
+                            <FrameLayout android:layout_width="wrap_content" android:layout_weight="1" android:id="@+id/frameLayout2" android:layout_height="75dip" android:layout_gravity="center_horizontal">
+                                <TextView android:id="@+id/textView1" android:textSize="30sp" android:text="Agenda Book" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center_horizontal"></TextView>
+                            </FrameLayout>
+                        </LinearLayout>
+                        <LinearLayout android:layout_width="wrap_content" android:layout_weight="1" android:id="@+id/linearLayout4" android:layout_height="wrap_content">
+                            <FrameLayout android:layout_width="wrap_content" android:layout_weight="1" android:id="@+id/frameLayout3" android:layout_gravity="right" android:layout_height="wrap_content">
+                                <Button android:id="@+id/button2" android:layout_gravity="right" android:layout_height="wrap_content" android:text="Right" android:layout_width="100dip"></Button>
+                            </FrameLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </FrameLayout>
+            </TableRow>
+            <TableRow android:layout_width="fill_parent" android:id="@+id/DateRow" android:layout_height="wrap_content">
+                <FrameLayout android:id="@+id/frameLayout4" android:layout_height="wrap_content" android:layout_gravity="left" android:layout_width="fill_parent">
+                    <TableLayout android:layout_height="wrap_content" android:id="@+id/tableLayout1" android:layout_width="600dip" android:layout_gravity="right">
+                        <TableRow android:id="@+id/tableRow1" android:layout_height="fill_parent" android:layout_width="fill_parent">
+                            <FrameLayout android:layout_height="wrap_content" android:id="@+id/frameLayout10" android:layout_width="fill_parent" android:layout_gravity="center" android:layout_weight="1">
+                                <FrameLayout android:layout_height="wrap_content" android:layout_gravity="left" android:id="@+id/frameLayout5" android:layout_width="fill_parent">
+                                    <TextView android:id="@+id/textView2" android:text="Today:" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="left"></TextView>
+                                </FrameLayout>
+                                <FrameLayout android:layout_height="wrap_content" android:layout_gravity="right" android:id="@+id/frameLayout6" android:layout_width="wrap_content">
+                                    <TextView android:id="@+id/textView4" android:layout_gravity="left" android:text="Tomorrow:" android:layout_height="wrap_content" android:layout_width="wrap_content"></TextView>
+                                </FrameLayout>
+                            </FrameLayout>
+                        </TableRow>
+                        <TableRow android:id="@+id/tableRow2" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_gravity="left">
+                            <FrameLayout android:layout_height="wrap_content" android:id="@+id/frameLayout7" android:layout_width="wrap_content" android:layout_gravity="right" android:layout_weight="1">
+                                <TextView android:id="@+id/textView3" android:text="Current Date" android:layout_height="wrap_content" android:layout_width="wrap_content"></TextView>
+                            </FrameLayout>
+                            <FrameLayout android:layout_height="wrap_content" android:id="@+id/frameLayout8" android:layout_gravity="right" android:layout_width="wrap_content" android:layout_weight="1">
+                                <TextView android:id="@+id/textView5" android:text="Tomorrow's Date" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="right"></TextView>
+                            </FrameLayout>
+                        </TableRow>
+                    </TableLayout>
+                </FrameLayout>
+            </TableRow>
+            <TableRow android:id="@+id/tableRow3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <FrameLayout android:id="@+id/frameLayout11" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:text="TextView" android:id="@+id/textView6" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+                </FrameLayout>
+            </TableRow>
+    </TableLayout>
