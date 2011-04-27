@@ -5,11 +5,11 @@
     android:layout_height="fill_parent"
     >
 <FrameLayout android:id="@+id/frameLayout1" android:layout_height="wrap_content" android:layout_width="fill_parent">
-    <ImageView android:src="@drawable/icon" android:id="@+id/imageView1" android:layout_height="wrap_content" android:layout_width="fill_parent"></ImageView>
+    <ImageView android:src="@drawable/reinvented_logo" android:id="@+id/imageView1" android:layout_height="wrap_content" android:layout_width="fill_parent"></ImageView>
 </FrameLayout>
 <Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/button1" android:text="Agenda"></Button>
 <Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/button2" android:text="Calendar"></Button>
 <Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/button3" android:text="Courses"></Button>
 <Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/button4" android:text="Grades"></Button>
-<Button android:layout_height="wrap_content" android:id="@+id/button5" android:text="Option" android:layout_width="wrap_content" android:layout_gravity="right"></Button>
+<Button android:id="@+id/button5" android:text="Option" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="right"></Button>
 </LinearLayout>

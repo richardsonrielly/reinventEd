@@ -1,4 +1,8 @@
 
-    <LinearLayout android:id="@+id/linearLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
-        <TextView android:text="CoursesView" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:id="@+id/linearLayout1" android:orientation="vertical" android:layout_height="wrap_content">
+        <FrameLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/frameLayout1">
+            <TextView android:textSize="30sp" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView1" android:text="CoursesView"></TextView>
+        </FrameLayout>
+        <LinearLayout android:id="@+id/linearLayout2" android:layout_width="wrap_content" android:layout_gravity="center_horizontal" android:layout_height="fill_parent" android:orientation="vertical">
+        </LinearLayout>
     </LinearLayout>

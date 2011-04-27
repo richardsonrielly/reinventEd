@@ -1,7 +1,6 @@
 package edu.fix.agenda;
 
 import edu.fix.R;
-import edu.fix.R.layout;
 import android.app.Activity;
 import android.os.Bundle;
 

@@ -1,12 +1,13 @@
 package edu.fix.courses;
 
 import java.util.Vector;
-
-import android.app.Activity;
+import java.io.Serializable;
 
 import edu.fix.bookcase.Book;
 
-public class Course {
+public class Course implements Serializable {
+
+	private static final long serialVersionUID = -6503056670685902032L;
 	private final String courseName;
 	private Vector<Book> books;
 
