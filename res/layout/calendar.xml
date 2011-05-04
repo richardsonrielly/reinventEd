@@ -1,9 +1,10 @@
 
-    <LinearLayout android:id="@+id/linearLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical">
         <TextView 
         	android:text="Calendar View" 
         	android:textSize="30sp"
         	android:id="@+id/textView1" 
         	android:layout_width="wrap_content" 
         	android:layout_height="wrap_content"></TextView>
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/calendar" android:id="@+id/imageView1" android:layout_gravity="center_horizontal"></ImageView>
     </LinearLayout>
